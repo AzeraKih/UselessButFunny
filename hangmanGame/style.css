@@ -1,0 +1,101 @@
+body{
+	font-size: 3vw;
+	background-color: white;	
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+	text-align: center;
+}
+#container{
+	padding-top: 50px;
+	font-weight: bold;
+}
+#container>div{
+	border-bottom: 1vw solid black;
+	border-radius: 1vw;
+	margin: 3px;	
+	display: inline-block;
+	width: 2em;
+	height:1em;
+}
+.center{
+	text-align: center;
+	vertical-align: bottom;
+	height: 3em;
+}
+.hidden{
+	visibility: none;
+}
+#inf{
+	height: 10vh;
+	background-color: #40F;
+	vertical-align: middle;
+}
+#dica{
+	display: inline-block;
+	float: left;
+	padding-top: 2vh;
+	padding-left: 3vw; 
+	font-size: .6em;
+}
+#qtd{
+	display: inline-block;
+	float: right;
+	padding-top: 2vh;
+	padding-right: 3vw; 
+}
+input[type=text]{
+	background-color: salmon;	
+	width: 80vw;
+	border: 1vh #40F solid;
+	border-radius: 10px;
+	text-align: center;
+	height: 30vh;
+	font-size: 5em;	
+	position: relative;
+	bottom: -21vh;
+}
+#digitados{
+	height: 4vh;
+}
+#digitados>div{
+	margin: 1px;	
+	display: inline-block;
+	width: 1em;
+	height:1em;
+	padding-top: 30px;
+}
+canvas{
+	background-color: rgba(255, 255, 255, 0);
+	width: 25vw;
+	position: fixed;
+	height: 35vh;
+	left: 0px;
+	z-index: 9;
+}
+.gameoveroff{
+	display: none;
+}
+.gameoveron{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+	z-index: 8;
+	display: block;
+}
+
+#gameover{
+	font-size: 4em;
+}
+
+#reload{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 2vh;
+	width: 4vw;
+	font-size: 1.3vh;
+	z-index: 99;
+}
