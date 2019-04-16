@@ -1,0 +1,12 @@
+#DVD{
+	background-color: black;
+	width: 100px;
+	height: 62px;
+	position: absolute;	
+	top: 30px;
+	left: 50px;
+}
+
+body{
+	background-color: black;
+}
