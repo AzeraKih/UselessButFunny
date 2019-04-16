@@ -1,0 +1,49 @@
+
+body, html{
+	font-family: 'Inconsolata', monospace;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.content{
+	text-align: center;
+}
+
+.container{
+	display: inline-block;
+	font-size: 14vw;
+	color: #40F;
+}
+.black{
+	background-color: black;
+	width: 100vw;
+	height: 100px;
+}
+
+.containerCanvas{
+	width: 100vw;
+}
+.containerCanvas>div{
+	width: 23%;	
+}
+
+canvas{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
