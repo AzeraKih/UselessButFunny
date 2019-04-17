@@ -1,0 +1,60 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 2vw;
+}
+header{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;	
+	width: 100vw;
+	height: 15vh;
+	background-color: #40F;
+}
+header>a{
+	padding-top: 12px;
+	position: relative;
+	padding-right: 5vw;
+	color: lime;
+	font-size: 1.2em;
+}
+.logo{
+	position: relative;
+	color: lime;
+	width: 50%;		
+	padding-left: 5vw;
+	font-size: 2.3em;
+}
+textarea{
+	font-family: 'lato', sans-serif;
+	height: 40vh;
+	width: 44%;
+	resize: none;
+	border: 2px solid #40F;
+}
+textarea:focus{
+	outline: 1px #F0F solid;
+}
+button{
+	font-size: .8em;
+	display: inline;
+	width: 95%;
+	background-color: #42F;
+	border: 3px solid black;
+}
+.content{
+	padding: 4vh 10vw 0 10vw;
+	text-align: center;
+}
+input[type=radio]{
+	margin:auto;
+}
+label{
+	display: flex;
+}
+.checkcontainer {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2vh;
+}

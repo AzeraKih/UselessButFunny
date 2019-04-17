@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VgH's Convertion</title>
+	<script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript"  src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id = "bodi">
+
+	<header>
+		<h1 class="logo">VgH's Converting</h1>
+		<a href="mailto:example@tutorialspark.com">vitor_christovao@outlook.com</a>
+	</header>
+	<main class="content">
+		<div class="checkcontainer">
+			<label>
+				<input checked="checked" type="radio" name="convertionType" value="Text2Binary">
+				<span>Texto para Binario</span>
+			</label>
+			<label>
+				<input type="radio" name="convertionType" value="Binary2Text">
+				<span>Binario para Texto</span>
+			</label>
+			<label>
+				<input type="radio" name="convertionType" value="Text2Hexa">
+				<span>Texto para Hexadecimal</span>
+			</label>
+			<label>
+				<input type="radio" name="convertionType" value="Hexa2Text">
+				<span>Hexadecimal para texto</span>
+			</label>
+			<label>
+				<input type="radio" name="convertionType" value="Hexa2Binary">
+				<span>Hexadecimal para binario</span>
+			</label>
+			<label>
+				<input type="radio" name="convertionType" value="Binary2Hexa">
+				<span>Binario para hexadecimal</span>
+			</label>
+		</div>
+		<div>
+			<textarea id="entrada" onkeyup="converter()"></textarea>
+			<textarea id="saida" disabled="disabled"></textarea>
+		</div>
+		<button onclick="converter()">Converter</button>
+	</main>
+
+</body>
+</html>
