@@ -1,0 +1,23 @@
+*{
+	font-size: 3vh !important;
+	background-color: white;	
+}
+body{
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+.dive{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-radius: 50px;
+}
+canvas{
+	width: 600px;
+	height: 300px;
+	border: 1px black solid;
+	position: relative;
+	top: 50px;
+}
