@@ -1,23 +1,71 @@
 *{
-	font-size: 3vh !important;
+	font-size: 3vh;
 	background-color: white;	
 }
+
 body{
 	text-align: center;
 	width: 100vw;
 	height: 100vh;
 }
-.dive{
-	position: absolute;
-	width: 15px;
-	height: 15px;
+
+#toolbar{
+	position: fixed;
 	background-color: black;
-	border-radius: 50px;
+	height: 100vh;
+	width: 10vw;
+	display: flex;
+	flex-direction: column;
+	min-width: 52px;
+	z-index: 99;
+}
+
+#toolbar>label>i{
+	font-size: 2em;
+	border: white 1px solid;
+	display: inline-block;
+	padding: 4px;
+	margin: 1vh;
 }
 canvas{
 	width: 600px;
 	height: 300px;
 	border: 1px black solid;
-	position: relative;
-	top: 50px;
+	top: 3vh;
+	position: absolute;
+    left: 12vw;
+    cursor: url(Pencil.cur), default;
+}
+
+[type=radio]{ 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + i , [type=color]{
+	cursor: pointer;
+}
+
+[type=radio]:checked + i{
+  background-color: gray;
+}
+
+[type=color], [type=number]{
+	border: none;
+	margin: none;
+	padding: 0;
+	background-color: black;
+	height: 40px;
+	width: 40px;
+	border: white 1px solid;
+	margin: 1vh;
+	padding: 0px;
+	color: white;
+	text-align: center;
+}
+
+label{
+	color: white;
 }

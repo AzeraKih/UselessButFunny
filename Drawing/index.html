@@ -3,13 +3,33 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>VgH's GoHorse</title>
+	<title>VgH's Drawing</title>
 	<script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<script type="text/javascript"  src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id = "bodi">
+	<div id="toolbar">
+		<label>Largura
+			<input type="number" value="1" min="1" max="99" id="linewidth"/>
+		</label>
+		<label id="toolColor">
+		    <input type="color" id="toolColorBtn"value="#FF0000"/>
+		</label>
+		<label>
+			<input type="radio" name="toolbar" value=0 checked="checked" />
+			<i class="fas fa-pencil-alt"></i>
+		</label>
+		<label>
+			<input type="radio" name="toolbar" value=1>
+			<i class="fas fa-eraser"></i>
+		</label>
+		<label>
+			<input type="radio" name="toolbar" value=2>
+			<i class="fas fa-fill-drip"></i>
+		</label>
+	</div>
 	<canvas id = "cp"></canvas>
 </body>
 </html>
