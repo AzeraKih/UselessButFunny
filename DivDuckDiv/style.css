@@ -1,0 +1,17 @@
+*{
+	font-size: 3vh;
+	background-color: white;	
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background-color: gray;
+}
+
+#container{
+	cursor: none;
+	height: 99vh;
+	width: 99vw;
+	background-color: #0aadce;
+	position: fixed;
+}
